@@ -81,6 +81,19 @@ The script in `src/index.ts` handles uploading images and metadata to IPFS using
 3. Uploads the metadata to IPFS
 4. Returns the final IPFS URI for minting
 
+Example:
+```
+❯ bun run src/index.ts
+[0.22ms] ".env"
+[11:50:11] info: Pushed image to IPFS
+[11:50:11] info: IPFS Hash :: QmbLtBf7vvuahdbb31GWmpZ3KPxuaDkKohRGywLYtWhh69
+[11:50:11] info: IPFS :: ipfs://QmbLtBf7vvuahdbb31GWmpZ3KPxuaDkKohRGywLYtWhh69
+[11:50:11] info: HTTPs :: https://gateway.pinata.cloud/ipfs/QmbLtBf7vvuahdbb31GWmpZ3KPxuaDkKohRGywLYtWhh69
+[11:50:12] info: IPFS Hash :: QmTw9fyhKuBZYo7B2JgRpFBSryJNg6C91NJvtQ6Heq1Ntt
+[11:50:12] info: IPFS :: ipfs://QmTw9fyhKuBZYo7B2JgRpFBSryJNg6C91NJvtQ6Heq1Ntt
+[11:50:12] info: HTTPs :: https://gateway.pinata.cloud/ipfs/QmTw9fyhKuBZYo7B2JgRpFBSryJNg6C91NJvtQ6Heq1Ntt
+```
+
 ### Environment Variables
 
 Create a `.env` file with:
